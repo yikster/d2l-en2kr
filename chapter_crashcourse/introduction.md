@@ -9,6 +9,15 @@ the transcription of his command.  It also recognized that we were
 asking for directions and launched the Maps application to fulfill our request.  Once launched, the Maps app identified a number of routes. Next to each route, the phone displayed a predicted transit time. While we fabricated this story for pedagogical convenience, it demonstrates that in the span of just a few seconds, our everyday interactions with a smartphone can engage several machine learning
 models.
 
+우리가 글쓰기를 시작하기 전에, 이 책의 작가들은 많은 노동력과 카페인을 흡수해야 했다.
+우리는 차에 올라타서 운전을 하기 시작했다. 알렉스는 'Hey Siri'를 불러 아이폰의 음성
+인식 시스템을 깨웠다. 그러자 무가 '블루 보틀 커피샵 방향으로' 라고 명령했다. 전화기는
+빠르게 그의 명령을 표시하였고. 그것은 우리가 경로를 찾는 다는 것을 인지하고, 우리의 
+요청을 수행하기 위해 지도 앱을 실행하였다. 실행한 뒤 지도앱은 몇개의 경로를 찾아 내었다.
+각 경로의 옆에는 예상 소요시간이 표시되었다. 우리가 교육적 편의를 위해 이 이야기를 각색
+하는 동안, 그것은 단 몇 초 동안, 우리의 일상적인 스마트폰과의 상호작용이 몇개의 머신러닝
+모델과관계 될 수 있음을 보여 주었다.
+
 If you've never worked with machine learning before, you might be
 wondering what we're talking about.  You might ask, 'isn't that just
 programming?' or 'what does *machine learning* even mean?'  First, to
