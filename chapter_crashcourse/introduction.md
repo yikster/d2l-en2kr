@@ -9,7 +9,7 @@ the transcription of his command.  It also recognized that we were
 asking for directions and launched the Maps application to fulfill our request.  Once launched, the Maps app identified a number of routes. Next to each route, the phone displayed a predicted transit time. While we fabricated this story for pedagogical convenience, it demonstrates that in the span of just a few seconds, our everyday interactions with a smartphone can engage several machine learning
 models.
 
-우리가 글쓰기를 시작하기 전에, 이 책의 작가들은 많은 노동력과 카페인을 흡수해야 했다.
+우리가 책을 쓰기 시작하기 전에, 이 책의 작가들은 많은 노동력과 카페인을 흡수해야 했다.
 우리는 차에 올라타서 운전을 하기 시작했다. 알렉스는 'Hey Siri'를 불러 아이폰의 음성
 인식 시스템을 깨웠다. 그러자 무가 '블루 보틀 커피샵 방향으로' 라고 명령했다. 전화기는
 빠르게 그의 명령을 표시하였고. 그것은 우리가 경로를 찾는 다는 것을 인지하고, 우리의 
@@ -29,7 +29,15 @@ precisely defining a field of study as vast as machine learning is
 hard.  It's a bit like answering, 'what is math?'.  But we'll try to
 give you enough intuition to get started.
 
-
+만약 당신이 이전에 머신러닝을 이용해 일은 한적이 한번도 없다면, 당신은 아마도 우리가 말하는
+것들을 매우 궁금해 할 것이다. 당신은 '그건 그냥 프로그래밍 아닌가요?' 혹은 '*머신러닝*이 
+무슨 뜻 인가요?'라고 물어볼 수도 있다. 무엇보다도 먼저, 명확히 하기 위해, 우리는 모든 
+머신러닝 알고리즘을 컴퓨터 프로그램 작성을 통해 구현한다. 실제로, 머신러닝과 관련된 
+프로그램들이 모두 다른 곳에서 사용되진 않지만, 우리는 다른 Computer Science 
+필드에서 처럼 같은 언어와 하드웨어를 사용한다. 두번째 질문에 대한 대답으로, 머신러닝은 
+매우 광범위한 영역에 대한 학습이 필요해서 명확히 정의하기는 어렵다.
+그것은 마치 '수학은 무엇인가?'와 같이 질문하는 것이다.
+ 
 ## A motivating example
 
 Most of the computer programs we interact with every day
@@ -42,6 +50,13 @@ We can write such a program from first principles,
 launch without ever having seen a real customer.
 When it's this easy to write an application
 *you should not be using machine learning*.
+
+우리가 매일 같이 interact하고 있는 대부분의 프로그램들은 첫번째 원칙으로
+부터 작성되었다. 당신이 쇼핑 카트에 하나의 상품을 추가할 때, 당신은 e-commerce 
+앱에 하나의 항목을 *쇼핑카드* 데이터베이스 테이블에 입력하고, 상품
+의 ID와 당신의 사용자 ID를 연결시키도록 시킨것이다. 우리는 그러한 첫번째 원칙에
+따라 프로그램을 작성할 수 있고, 실제 고객없이도, 실제로 본것처럼 출시할 수 있다.
+그것은 이것을 프로그램 작성이 쉬워질때, *당신은 머신러닝을 이용할 필요가 없다.*
 
 Fortunately (for the community of ML scientists)
 for many problems, solutions aren't so easy.
